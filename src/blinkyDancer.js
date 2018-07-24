@@ -1,9 +1,10 @@
 var blinkyDancer = function(top, left, timeBetweenSteps) {
   Dancer.call(this, top, left, timeBetweenSteps);
 };
-
+// make all blinkyDancers instances of Dancer class
 blinkyDancer.prototype = Object.create(Dancer.prototype);
-blinkyDancer.prototype.constructor = blinkyDancer; //repair constructor link
+// repair blinkyDancer constructor link
+blinkyDancer.prototype.constructor = blinkyDancer;
 
 blinkyDancer.prototype.step = function() {
   Dancer.prototype.step.call(this);

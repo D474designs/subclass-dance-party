@@ -1,30 +1,50 @@
 body, html{
   height:100%;
-
+  width:100%;
 }
+
 body{
+  height:100%;
+  width:100%;
   margin: 0px;
   background-color:#444;
   font-size: 18px;
-  background-image: url("bk-jellyfish-jam-big.jpg");
+  background-image: url("img/background.gif");
   background-size: cover;
 }
+
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
+
+footer {
+    float:right;
+    display: block;
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
 .title, .addDancerButton{
   padding:5px 12px;
   float:right;
 }
+
 .topbar{
   height:32px;
   background-color: #555;
 }
+
 .lineUpButton{
-  background-color: #AA8CC5;
-  width: 10em;
-  height: 2.4em;
+  background-color: powderBlue;
+  font-size: 18px;
+  font-style: oblique;
+  color: blue;
+  width: 5em;
+  height: 1.7em;
 }
+
 .title{
   background-color: #777;
 }
@@ -45,52 +65,29 @@ body, a:link, a:visited, a:active{
   left: 0;
   background: rgba(255, 0, 0, 0.5);
 }
+
 .dancer{
   border:10px solid red;
   border-radius:10px;
   position:absolute;
 }
-.dancer.jellyfish {
- /*background-image: url("https://media.giphy.com/media/rdXF0gnAyUAfK/giphy.gif");*/
- background-repeat: no-repeat;
- background-size: 100%;
- position:absolute;
- border: none;
- top: 50px;
- left: 50px;
- height: 5px;
- width: 5px;
+
+.dancer.seal {
+ border:9px solid red;
+ border-radius:9px;
 }
-.dancer.patrick {
- /*background-image: url("https://media.giphy.com/media/rdXF0gnAyUAfK/giphy.gif");*/
- background-repeat: no-repeat;
- background-size: 100%;
- position:absolute;
- border: none;
- top: 50px;
- left: 50px;
- height: 5px;
- width: 5px;
+
+.dancer.bear {
+  border:9px solid red;
+  border-radius:9px;
 }
-.dancer.squidward {
- /*background-image: url("https://media.giphy.com/media/rdXF0gnAyUAfK/giphy.gif");*/
- background-repeat: no-repeat;
- background-size: 100%;
- position:absolute;
- border: none;
- top: 50px;
- left: 50px;
- height: 5px;
- width: 5px;
+
+.dancer.cockatoo {
+  border:9px solid red;
+  border-radius:9px;
 }
-.dancer.spongebob {
- /*background-image: url("https://media.giphy.com/media/rdXF0gnAyUAfK/giphy.gif");*/
- background-repeat: no-repeat;
- background-size: 100%;
- position:absolute;
- border: none;
- top: 50px;
- left: 50px;
- height: 5px;
- width: 5px;
+
+.dancer.cat {
+  border:9px solid red;
+  border-radius:9px;
 }

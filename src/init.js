@@ -17,43 +17,17 @@ $(document).ready(function() {
      * to the stage.
      */
     var dancerMakerFunctionName = $(this).data('dancer-maker-function-name');
-
-    // get the maker function for the kind of dancer we're supposed to make
+    // maker function for dancers
     var dancerMakerFunction = window[dancerMakerFunctionName];
-
-    // make a dancer with a random position
-
+    // make dancer with random position
     var dancer = new dancerMakerFunction(
       $("body").height() * Math.random(),
       $("body").width() * Math.random(),
-      Math.random() * 1000
+      Math.random() * 1000 
     );
     $('body').append(dancer.$node);
   });
-  //var audio = $("#audio_play")[0];
-  //$(".addDancerButton").on('click', function() {
-  //    audio.play();
-//  });​
-  $('#audio_play').get(0).play();
   $('.lineUpButton').on('click', function(event) {
-    $('.dancer').animate({left: '200px'});
+    $('.dancer').animate({left: '50%'});
   });
 });
-/* finish lineUpButton
-body {
-  background-color: #333;
-  color: #333;
-  font-family: 'Raleway', sans-serif;
-  font-weight:400;
-}
-var colors = ['#16a085', '#27ae60', '#2c3e50', '#f39c12', '#e74c3c', '#9b59b6', '#FB6964', '#342224', "#472E32", "#BDBB99", "#77B1A9", "#73A857"];
-var color = Math.floor(Math.random() * colors.length);
-     $("html body").animate({
-       backgroundColor: colors[color],
-       color: colors[color]
-     }, 1000);
-     $(".button").animate({
-       backgroundColor: colors[color]
-     }, 1000);
-   }
- });*/

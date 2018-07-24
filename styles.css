@@ -1,6 +1,7 @@
 body, html{
   height:100%;
   width:100%;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
 }
 
 body{
@@ -24,6 +25,7 @@ footer {
     position: absolute;
     right: 10px;
     bottom: 10px;
+    text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
 }
 
 .title, .addDancerButton{
@@ -43,6 +45,7 @@ footer {
   color: blue;
   width: 5em;
   height: 1.7em;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
 }
 
 .title{

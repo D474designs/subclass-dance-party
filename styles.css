@@ -48,6 +48,16 @@ footer {
   text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
 }
 
+.breakUpButton{
+  background-color: powderBlue;
+  font-size: 18px;
+  font-style: oblique;
+  color: blue;
+  width: 5em;
+  height: 1.7em;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
+}
+
 .title{
   background-color: #777;
 }

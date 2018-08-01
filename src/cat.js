@@ -1,6 +1,6 @@
 var cat = function(top, left, timeBetweenSteps) {
   Dancer.call(this, top, left, timeBetweenSteps);
-this.$node.addClass('cat').prepend("<img src='img/cat.gif' height=200px width=200px/>");
+this.$node.addClass('cat').prepend("<a href='https:/D474designs.github.io'><img src='img/cat.gif' height=200px width=200px/></a>");
 };
 
 cat.prototype = Object.create(Dancer.prototype);

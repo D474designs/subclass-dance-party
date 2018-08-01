@@ -1,7 +1,7 @@
 var cockatoo = function(top, left, timeBetweenSteps) {
   Dancer.call(this, top, left, timeBetweenSteps);
 
- this.$node.addClass('cockatoo').prepend("<img src='img/cockatoo.gif'/>");
+ this.$node.addClass('cockatoo').prepend("<a href='https://D474designs.webs.com'><img src='img/cockatoo.gif'/></a>");
 };
 
 cockatoo.prototype = Object.create(Dancer.prototype);

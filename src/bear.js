@@ -1,6 +1,6 @@
 var bear = function(top, left, timeBetweenSteps) {
   Dancer.call(this, top, left, timeBetweenSteps);
-  this.$node.addClass('bear').prepend("<img src='img/bear.gif'/>");;
+  this.$node.addClass('bear').prepend("<a href='https://D474media.webs.com'><img src='img/bear.gif'/></a>");;
 };
 
 bear.prototype = Object.create(Dancer.prototype);

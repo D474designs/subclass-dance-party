@@ -28,12 +28,12 @@ $(document).ready(function() {
     $('body').append(dancer.$node);
   });
   $('.lineUpButton').on('click', function(event) {
-    $('.dancer').animate({left: '50%'});
+    $('.dancer').animate({left: '30%'});
   });
   $('.breakUpButton').on('click', function(event) {
     $('.dancer').animate({
-      left: '50%',
-      top: '50%'
+      left: '25%',
+      top: '25%'
     });
   });
 
